@@ -1,0 +1,89 @@
+.thanhtoan{
+    width: 1100px ;
+    display: flex;
+    justify-content: space-around;
+    margin:50px auto;
+    text-transform: uppercase;
+}
+.sptt{
+    width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.khungdangnhap,.khungdangky{
+    top: -93px;
+}
+.sltt{
+    width: 40%;
+    height: 400px;
+   
+}
+.sltt h2{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-top:10px;
+}
+.dondathang{
+    padding: 15px;
+    margin: auto;
+    border: 3px solid rgb(22, 20, 20);
+    border-radius: 20px;
+}
+.tonggia{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(207, 26, 26);
+}
+.nutthanhtoan{
+    padding: 8px 30px;
+    border-radius:30px;
+    border: 2px solid #3a3a3b;
+    background: none;
+    outline: none;
+    color: rgb(22, 20, 20);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.thandondathang{
+    width: 100%;
+    font-weight: 500;
+}
+.spg{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+}
+.sanpham .baolisticon>.listicon>span{
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    padding: 5px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    color: #5f5f79;
+}
+.spg .spco{
+    width: 60%;
+    text-align: left
+}
+.spg .giaspco{
+    width: 40%;
+    text-align: right
+}
+.nutthanhtoan:hover{
+    color: white;
+    background: rgb(22, 20, 20);
+}
+.sanpham:hover .baolisticon>.listicon>span{
+    top:40px;
+    left:0px;
+    
+}

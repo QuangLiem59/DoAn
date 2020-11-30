@@ -1,0 +1,146 @@
+.khungbreadcrumb{
+    margin-top: 93px;
+    width: 100%;
+    background: #dddddd;
+    
+}
+a{
+    text-decoration: none;
+    color: #06030c;
+}
+.breadcrumb-tree{
+    width: 1100px;
+    margin: auto;
+    padding: 15px 10px;
+    text-transform: uppercase;
+}
+.breadcrumb-tree ul{
+    list-style: none;
+}
+.breadcrumb-tree ul>li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.breadcrumb-tree ul>li+li::before{
+    content: '/';
+    display: inline-block;
+    color: #8D99AE;
+    margin-right: 10px;
+}
+.khungct{
+    width: 100%;
+}
+.khungchitiet{
+    padding:60px 0;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.ttchitiet{
+    width: 40%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ttchitiet>h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #8D99AE;
+}
+.khunggiact>h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #ef233c;
+    padding: 5px 0 30px 0;
+}
+.ttchitiet>ul{
+    font-size: 13px;
+    padding: 5px 0;
+}
+.khungmotact{
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.motact{
+    width: 1100px;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+.khungdangnhap,.khungdangky{
+    top: -93px;
+}
+.tieudemtct{
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+    margin-bottom: 30px;
+}
+.tieudemtct a{
+   padding: 5px 10px;
+   background: #f4f8fa;
+   font-weight: 700;
+}
+.ndct p{
+    text-align: center;
+}
+.tieudemtct::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background-color: rgb(191, 196, 206);
+    z-index: -1;
+}
+.loaispct,.noisxct,.nhasxct,.baohanhct{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.ttchitiet ul>li:last-child{
+    padding-left: 10px;
+}
+.anhchitiet{
+    width:60%;
+    
+ 
+}
+.themghct{
+    padding: 10px 45px;
+    border-radius: 30px;
+    background: #ef233c;
+    border: 2px solid #ef233c;
+    
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+.khunganhct{
+    width: 60%;
+    margin: auto;
+
+}
+.khunganhct>img{
+    width: 100%;
+}
+.khungtghct{
+    padding-top: 45px ;
+}
+.themghct>i{
+    padding-right: 10px;
+    font-size: 18px;
+}
+.themghct:hover{
+    background: none;
+    
+    color: #ef233c;
+    padding: 10px 70px;
+}
